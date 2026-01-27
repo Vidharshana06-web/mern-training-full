@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:grid;
+            grid-template-columns: 160px 160px 160px 160px 160px;
+            grid-template-rows: 160px 160px 160px 160px;
+            gap:20px;
+           
+        }
+        .box1{
+             border:3px solid blue;
+            background-color: aquamarine;
+             grid-column: 1 / 6; 
+             grid-row: 1 / 2;    
+             text-align:center;
+             padding-top:80px;
+        }
+        .box2{
+            border:3px solid blue;
+            background-color: aquamarine;
+             grid-column: 1 / 2; 
+             grid-row: 2/4;   
+             text-align:center;
+             padding-top:160px;
+        }
+        .box3{
+            border:3px solid blue;
+            background-color: aquamarine;
+             grid-column: 2/6; 
+             grid-row: 2/3;   
+             text-align:center;
+              padding-top:70px;
+        }
+        .box4{
+            border:3px solid blue;
+            background-color: aquamarine;
+             grid-column: 2/4; 
+             grid-row: 3/4;    
+             text-align:center;
+              padding-top:70px;
+        }
+        .box5{
+            border:3px solid blue;
+            background-color: aquamarine;
+             grid-column: 4/6; 
+             grid-row: 3/4;    
+             text-align:center;
+              padding-top:70px;
+        }
+        .box6{
+            border:3px solid blue;
+            background-color: aquamarine;
+             grid-column: 1/6; 
+             grid-row: 4/5;    
+             text-align:center;
+              padding-top:70px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+        <div class="box4">Box 4</div>
+        <div class="box5">Box 5</div>
+        <div class="box6">Box 6</div>
+    </div>
+</body>
+</html>
