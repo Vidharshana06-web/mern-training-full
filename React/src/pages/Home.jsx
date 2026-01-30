@@ -7,7 +7,6 @@ import Reducer from "../hooks/Reducer"
 import {Link} from "react-router-dom"
 import {userContext} from "../App"
 import {useState} from "react"
-
 const Home = () => {
   const [user,setUser]=useState("abcd")
   return (
