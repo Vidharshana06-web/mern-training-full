@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       <Link to={'/form'}>Form</Link><br/>
-      <Link to={'/state'}>UseState Example.</Link><br/>
+      <Link to={'/state'}>UseState Example..</Link><br/>
        <Link to={'/reducer'}>UseReducer Example</Link><br/>
 
        <userContext.Provider value={user}>
